@@ -2,9 +2,9 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class RockScissorPaper {
-    Scanner scanner;
-    int scoreP;
-    int scoreA;
+    private Scanner scanner;
+    private int scoreP;
+    private int scoreA;
 
     public RockScissorPaper() {
         scanner = new Scanner(System.in);
